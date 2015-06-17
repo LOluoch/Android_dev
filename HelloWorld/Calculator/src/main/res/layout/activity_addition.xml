@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:orientation="vertical"
+              android:gravity="center"
+                tools:context="com.lavineoluoch.helloworld.calculator.app.AdditionActivity">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/numone"
+              android:id="@+id/numonetv"
+              android:layout_marginBottom="20dp"/>
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/numoneet"
+              android:width="200dp"
+              android:inputType="numberDecimal"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/numtwo"
+              android:layout_marginTop="20dp"
+              android:id="@+id/numtwotv"/>
+
+    <EditText android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:width="200dp"
+              android:layout_marginTop="20dp"
+              android:id="@+id/numtwoet"
+              android:inputType="numberDecimal"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/strans"
+              android:layout_marginTop="20dp"
+              android:id="@+id/resulttv"
+              android:background="#ff0f9972"
+              android:textColor="#ffffff"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/addbtn"
+            android:id="@+id/addbtn"/>
+
+</LinearLayout>

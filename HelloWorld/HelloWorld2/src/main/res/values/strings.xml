@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Rocky Skies</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <!--TextViews-->
+    <string name="strUserName">Username</string>
+    <string name="strPassword">Password</string>
+    <string name="strConfirmPassword">Confirm Password</string>
+    <string name="strEmail">Email</string>
+    <string name="RockieSky">Rocky Skies</string>
+    <string name="strRegister">Register</string>
+    <string name="intro">Touch the heavens</string>
+    <!--EditText-->
+    <string name="hintUsername">Name</string>
+    <string name="hintPassword">********</string>
+    <!--Button-->
+    <string name="strLogin">Log In</string>
+    <string name="button">Generate Current Time</string>
+    <!--Checkbox-->
+    <string name="strshowPass">Show Password</string>
+
+</resources>

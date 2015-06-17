@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Calculator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addition">AdditionActivity</string>
+
+    <!--Buttons-->
+    <string name="add">Addition</string>
+    <string name="subtract">Subtraction</string>
+    <string name="addition">Add</string>
+    <string name="subtraction">Subtract</string>
+
+    <!--TextViews-->
+    <string name="numone">First Number</string>
+    <string name="numtwo">Second Number</string>
+    <string name="strans">Result</string>
+    <string name="strtag">Basic Arithmetic</string>
+    <string name="title_activity_subtraction">SubtractionActivity</string>
+
+</resources>
